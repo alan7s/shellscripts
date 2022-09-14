@@ -2,6 +2,7 @@
 help(){
  echo "Crie um arquivo com nome jogos.txt no mesmo diretório"
  echo "Coloque um jogo por linha no arquivo no formato: 01-02-03-04-05-06"
+ echo "Execute o script passando o resultado da loteria"
  echo "Exemplo: ./loteria_check.sh 01 02 03 04 05 06"
 }
 if [ $1 == "-h" ];then
